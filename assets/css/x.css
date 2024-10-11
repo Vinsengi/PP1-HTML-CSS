@@ -22,18 +22,24 @@
 		background-position: 0% 50%;
 	}
 }
-/* Global  */
+
+section {
+	background-color: whitesmoke;
+}
+
+
+/* pyth */
 h1,
 h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63; /* dark-blue */
+	text-transform: uppercase;
+	
 }
 
 /* Contact section */
 
-#contact {
-    background-color: white;
-}
+
 
 #contact .form-label {
     color: #1f7798;
@@ -48,6 +54,8 @@ h2 {
     background-color: #1d6d8a;
     border:#1d6d8a;
 }
+
+
 
 /*Footer */
 #social-networks {
