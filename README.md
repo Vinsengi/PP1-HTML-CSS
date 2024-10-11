@@ -35,7 +35,7 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
     * A site wide favicon (This is a noraml vital profile picture resized down and rounded to mimik a favicon) will be implemented with vital's profile picture in a form of a circle.
     * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
-![Favicon](./assets/images/readme-images/favicon.png)
+![Favicon](./assets/images/favicon/favicon.png)
 
 
 
@@ -43,7 +43,7 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
     * A 404 page will be implemented and will display if a user navigates to a broken link.
     * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
 
-![404](docs/readme_images/404_page.JPG)
+![404](./assets/images/readme-images/404-image.png)
 
 ### Landing Page
 * Landing page image

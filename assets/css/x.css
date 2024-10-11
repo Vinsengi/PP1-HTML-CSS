@@ -28,6 +28,11 @@ section {
 }
 
 
+/* add different color and increased font weight to nav link for the page that user is currently viewing */
+.active {
+    color:black;
+    font-weight: 700;
+}
 /* pyth */
 
 h1
