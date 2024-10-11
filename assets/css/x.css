@@ -29,7 +29,16 @@ section {
 
 
 /* pyth */
-h1,
+
+h1
+ {
+    font-family: "DM Serif Display", serif;
+    color: #184f63; /* dark-blue */
+	
+	
+}
+
+
 h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63; /* dark-blue */
