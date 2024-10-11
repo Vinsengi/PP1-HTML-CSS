@@ -26,7 +26,7 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
 
 ![Footer](./assets/images/readme-images/footer.png)
 * Favicon
-    * A site wide favicon will be implemented with the Hair O' The Dog clubs emblem.
+    * A site wide favicon will be implemented with vital's profile picture in a form of a circle.
     * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
 ![Favicon](docs/readme_images/favicon.JPG)
