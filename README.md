@@ -1,6 +1,6 @@
 # The PP1-HTML-CSS-Vital
 
-![The PP1-HTML-CSS-Vital on a variety of screen sizes](assets/images/the-quiz-arms.png)
+![The PP1-HTML-CSS-Vital on a variety of screen sizes](./assets/images/responsiveness-check.png)
 
 Visit the deployed site: [The PP1-HTML-CSS-Vital](https://kera-cudmore.github.io/TheQuizArms/)
 
