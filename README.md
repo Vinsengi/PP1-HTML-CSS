@@ -4,6 +4,10 @@
 
 Visit the deployed site: [The PP1-HTML-CSS-Vital](https://kera-cudmore.github.io/TheQuizArms/)
 
+Vital's portfolio Website is intended to give important information to professionals and everyone alse who might be interested in hiring me as their potential project manager for their Projects.
+
+Users of this website will get most of the information about Vital as their ideal candidate, about me, my crediantials/Portfolio, my contact info, and they can also subscribe to my newsletter if they wish so. Most of the GDPR applies.
+
 Check my website and get opportunity to work with me!
 
 

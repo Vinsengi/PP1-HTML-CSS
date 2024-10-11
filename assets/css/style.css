@@ -12,6 +12,7 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: #a4c2d1; /* egg blue */
+    margin-top: 40px;
 
 }
 
@@ -22,6 +23,11 @@ h2 {
 }
 
 .sharp-corners,
+
+
+
+
+
 .sharp-corners * {
     border-radius: 0;
 }
