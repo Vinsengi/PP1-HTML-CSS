@@ -50,21 +50,22 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
     * This will be a collection of favourite images from some of 'Taco's Travels. Images will change on a timer. 
     * This will help to immediately show the user what the website is about and help to animate the page. 
 
-![Landing Page Image](docs/readme_images/landing_page_image.JPG)
-* Website information on 'Taco'
-    * Information about 'Taco' and the websites purpose including an image of 'Taco' on his travels.
+![Landing Page Image](./assets/images/readme-images/landing%20page.png)
+* Website information on Vial's website
+    * Information about Vital and the websites purpose including an image of Vital.
     * This information lets the user know what the site is about. 
 
-![Bio](docs/readme_images/about_me.JPG)
+![Bio](./assets/images/readme-images/about-me-section.png)
 
 * Contact form
-    * A contact form will be implemented to allow users to contact 'Taco'. The form will consist of the following fields and attributes: 
-        * First Name (required, type=text)
-        * Last Name (required, type=text)
+    * A contact form will be implemented to allow users to contact Vital. The form will consist of the following fields and attributes: 
+        *Full Name (required, type=text)
+        * Phone number (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea)
+        * Send Button
     * On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.
-    * This will allow user to contact 'Taco' if they have any queiries about travel destinations, charity events, club information or maybe to join him on some of his travels. 
+    * This will allow user to contact Vital if they have any queiries about him.
 
 ![Contact Form](docs/readme_images/contact_form.JPG)
 
