@@ -20,25 +20,6 @@
 
 <body>
     <!-- Navigation -->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./assets/images/vital-profil.jpg" alt="Vital's picture"
-                    width="30"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="x.html">About</a>
-                    <a class="nav-link" href="#">Credentials</a>
-                    <a href="#" class="nav-link">Hobies</a>
-                    <a class="nav-link "  href="#">Contact</a>
-                </div>
-            </div>
-        </div>
-    </nav> -->
 
     <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
         <div class="container">
@@ -57,14 +38,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <a class="nav-link" href="#customers">Customers</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hobbies</a>
+                        <a class="nav-link" href="#certificates">Certificates</a>
                     </li>
+
+                    
 
                     <li class="nav-item">
                         <a class="nav-link " href="#contact">Contact</a>
@@ -123,8 +105,11 @@
                         </h1>
                         <p class="lead">Meet your future Boss</p>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" class="btn btn-light btn-lg px-4 me-md-2 mb-4">Hire Me</button>
-                            <button type="button" class="btn btn-outline-light btn-lg px-4 mb-4">Contact me</button>
+                            <button type="button" class="btn btn-light btn-lg px-4 me-md-2 mb-4"><a
+                                    href="https://www.linkedin.com/in/vital-nsengiyumva/" target="_blank"></a>Hire
+                                Me</button>
+                            <button type="button" class="btn btn-outline-light btn-lg px-4 mb-4"><a
+                                    href="x.html#contact"></a>Contact me</button>
                         </div>
                     </div>
                 </div>
@@ -134,11 +119,16 @@
 
     <main>
 
-        <!-- Why hire me section - Features -->
+        <!-- About - Why hire me section - Features -->
 
-        <section id="features">
+        <section id="about">
             <div class="container col-xxl-8 px-4 pt-5 mt-5">
+                <!-- my-4 used to add top and bottom margin to heading -->
+                <div class="col-12 text-center my-4">
+                    <h2 class="display-5">About Vital</h2>
+                </div>
                 <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
                     <div class="col d-flex align-items-start">
                         <div
                             class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -184,7 +174,7 @@
         </section>
 
         <!-- My previous customers - Testimonials section -->
-        <section id="Testimonials">
+        <section id="customers">
             <div class="my-5 ">
                 <div class="p-5 text-center bg-body-tertiary">
                     <div class="container py-5 col-xxl-8 px-4 pt-5">
@@ -215,7 +205,42 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+
+    <!-- Contact section -->
+    <footer id="contact" class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center my-4">
+                <h4 class="display-5">Contact Me</h4>
+                <p class="mt-4">Reach out and let share a cup of coffee or Tea and talk Business</p>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8">
+                <!-- Add your form here -->
+                <form class="row g-3">
+                    <div class="col-lg-4 sharp-corners">
+                        <label for="full-name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="full-name">
+                    </div>
+                    <div class="col-lg-4 sharp-corners">
+                        <label for="phonenumber" class="form-label">Phone number</label>
+                        <input type="number" class="form-control" id="phonenumber">
+                    </div>
+                    <div class="col-lg-4 sharp-corners">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-12 sharp-corners">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 sharp-corners">
+                        <button type="submit" class="btn btn-primary mb-4">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <footer id="footer" class="gradient-background">
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/vital.nsengiyumva" target="_blank" rel="noopener" aria-label="Visit my old Facebook page
                 (opens in a new tab)"><i class="fa-brands fa-facebook"></i> </a></li>
