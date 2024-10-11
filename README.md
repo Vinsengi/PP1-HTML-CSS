@@ -2,7 +2,7 @@
 
 ![The PP1-HTML-CSS-Vital on a variety of screen sizes](./assets/images/responsiveness-check.png)
 
-Visit the deployed site: [The PP1-HTML-CSS-Vital](https://kera-cudmore.github.io/TheQuizArms/)
+Visit the deployed site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTML-CSS-Vital/)
 
 Vital's portfolio Website is intended to give important information to professionals and everyone alse who might be interested in hiring me as their potential project manager for their Projects.
 
