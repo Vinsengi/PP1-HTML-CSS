@@ -20,16 +20,25 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
     * This will allow users to easily navigate between the pages within the site on any standard size device. 
 
 ![Nav Menu](./assets/images/readme-images/navigation-menu.png)
+
+
 * Footer
-    * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain contact information for 'Taco'.
-    * This will allow the user to follow 'Taco' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact 'Taco' directly.
+    * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels.
+
+    * This will allow the user to follow Vital on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact Vital directly.
 
 ![Footer](./assets/images/readme-images/footer.png)
+
+
+
 * Favicon
-    * A site wide favicon will be implemented with vital's profile picture in a form of a circle.
+    * A site wide favicon (This is a noraml vital profile picture resized down and rounded to mimik a favicon) will be implemented with vital's profile picture in a form of a circle.
     * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
-![Favicon](docs/readme_images/favicon.JPG)
+![Favicon](./assets/images/readme-images/favicon.png)
+
+
+
 * 404 Page
     * A 404 page will be implemented and will display if a user navigates to a broken link.
     * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
