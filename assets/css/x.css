@@ -22,8 +22,32 @@
 		background-position: 0% 50%;
 	}
 }
+/* Global  */
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    color: #184f63; /* dark-blue */
+}
 
+/* Contact section */
 
+#contact {
+    background-color: white;
+}
+
+#contact .form-label {
+    color: #1f7798;
+}
+
+.btn-primary {
+    background-color: #1f7798;
+    border:#1f7798 ;
+}
+
+.btn-primary:hover {
+    background-color: #1d6d8a;
+    border:#1d6d8a;
+}
 
 /*Footer */
 #social-networks {
