@@ -27,11 +27,17 @@ section {
 	background-color: whitesmoke;
 }
 
+.btn-outline-primary {
+    
+    border: 1px solid#1f7798 ;
+	color:#1f7798;
+}
 
 /* add different color and increased font weight to nav link for the page that user is currently viewing */
 .active {
     color:black;
     font-weight: 700;
+	
 }
 /* pyth */
 

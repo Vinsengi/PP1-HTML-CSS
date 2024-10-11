@@ -67,7 +67,7 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
     * On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.
     * This will allow user to contact Vital if they have any queiries about him.
 
-![Contact Form](docs/readme_images/contact_form.JPG)
+![Contact Form](./assets/images/readme-images/contactme-form.png)
 
 ![Contact Form Received](docs/readme_images/contact_form_received.JPG)
 ### Gallery Page
