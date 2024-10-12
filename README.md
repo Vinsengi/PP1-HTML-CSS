@@ -443,7 +443,7 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
+![Home HTML Validator Results](./assets/images/testing-images/w3c%20validation.png)
 
 ![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
 
