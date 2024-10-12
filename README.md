@@ -459,7 +459,7 @@ Behavior was as expected and my outlook application was opened ready to send an 
 ![CSS Validator Results](docs/testing/css_validator.JPG)
 
 ### Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of toggling the header on mobile screen so that it can collapse after clicking on the wished page on the navigation menu.
 
 ## Deployment
 
@@ -484,7 +484,7 @@ The following git commands were used throughout development to push code to the 
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
+The live link can be found here - https://vinsengi.github.io/PP1-HTML-CSS-Vital/
 
 ### Clone the Repository Code Locally
 
