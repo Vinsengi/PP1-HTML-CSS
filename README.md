@@ -151,6 +151,9 @@ Gallery page
     * The structure of the Website was developed using HTML as the main language.
 * CSS
     * The Website was styled using custom CSS in an external file.
+
+* CSS - Framework - ![Bootstrap] (https://getbootstrap.com/)
+    * The Website was styled using custom CSS in an external file.
 * Gitpod
     * The website was developed using Gitpod IDE
 * GitHub
@@ -275,7 +278,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 
 Links on all pages navigated to the correct pages as exptected.
 
-**Form Testing**
+**Contact Form Testing**
 
 The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
@@ -400,43 +403,14 @@ Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
+
+
 **Footer Social Media Icons / Links**
 
 Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
 
 Each item opened a new tab when clicked as expected and correct hover color was present.
 
-**Footer Contact Information**
-
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
-
-_Steps to test Telephone Number_
-
-1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
-2. Click the phone number in the footer (01 123 456 789)
-
-Expected:
-
-A window is opened asking which device you would like to call from.
-
-Actual:
-
-Behavior was as expected and the window presented me with the following option to call:
-
-- Oukitel Mobile Phone
-
-_Steps to test Email Link_
-
-1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
-2. Click the email address in the footer (taco@gmail.com)
-
-Expected:
-
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
-
-Actual:
-
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
 
 ### Validator Testing 
 
@@ -452,7 +426,7 @@ Behavior was as expected and my outlook application was opened ready to send an 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results](docs/testing/css_validator.JPG)
+![CSS Validator Results](./assets/images/testing-images/W3C-validation-results-x-css-file.png)
 
 ### Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of toggling the header on mobile screen so that it can collapse after clicking on the wished page on the navigation menu.
