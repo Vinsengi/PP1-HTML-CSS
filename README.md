@@ -151,7 +151,7 @@ Gallery page
     * The structure of the Website was developed using HTML as the main language.
 * CSS
     * The Website was styled using custom CSS in an external file.
-* Visual Studio Code
+* Gitpod
     * The website was developed using Gitpod IDE
 * GitHub
     * Source code is hosted on GitHub and delpoyed using Git Pages.
