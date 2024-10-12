@@ -92,19 +92,20 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
 ![Details Dropdown](docs/readme_images/details_dropdown.JPG)
 
 
-### Existing Features
+### Not shown Features on the navigation menu
 
-* Responsive design
-* Hidden interactive sections on adventure page
-* Responsive gallery with filtering
-* Contact form and success page
-* 3 Adventure trips and information
+* Sucess form, not on navigation, it shows up only on successful submission of the contact form
+* 404 - Not found form
+
+
 
 ### Features Left to Implement
 
 * As a future enhancement, the contact form will be updated with javascript to send an email to vital with the contact information.
 
 * Fix the carousel so that its height remains same regardless of image's height.
+
+* A downloadable pdf Resume will be made possile later. As per current deployment, the resume is a simple HTML and CSS webpage.
 
 ## Design
 
