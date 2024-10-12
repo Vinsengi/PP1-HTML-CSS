@@ -151,7 +151,7 @@ Gallery page
 * CSS
     * The Website was styled using custom CSS in an external file.
 * Visual Studio Code
-    * The website was developed using Visual Studio Code IDE
+    * The website was developed using Gitpod IDE
 * GitHub
     * Source code is hosted on GitHub and delpoyed using Git Pages.
 * Git 
@@ -161,7 +161,7 @@ Gallery page
 * Tinyjpg
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * Favicon.io
-    * favicon files were created at https://favicon.io/favicon-converter/ 
+    * favicon files were created at https://favicon.io/favicon-converter/  and i used some of my own pictured resized down.
 * balsamiq
     * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 
@@ -174,7 +174,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/)
+1. Open browser and navigate to [Vital's website](https://vinsengi.github.io/PP1-HTML-CSS-Vital/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -192,10 +192,10 @@ Website behaved as expected with the exception of switching to landscape view in
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-- Oukitel C21 Pro
-- TCL 30 Pro
-- iPhone SE
-- Samsung Galaxy Tablet
+- Dell monitor (X-large monitor)
+- Lenovo Thinkpas x1 yoga (large screen)
+- iPhone 13 pro max (small screen)
+- ipad 12 pro (Medium screen)
 
 ### Accessibility
 
