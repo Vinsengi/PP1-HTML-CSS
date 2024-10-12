@@ -445,13 +445,9 @@ Behavior was as expected and my outlook application was opened ready to send an 
 
 ![Home HTML Validator Results](./assets/images/testing-images/w3c%20validation.png)
 
-![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
+![success HTML ](./assets/images/testing-images/testing-wave-success.png)
 
-![Home HTML Validator Results](docs/testing/home_validator.JPG)
-
-![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
-
-![404 HTML Validator Results](docs/testing/404_validator.JPG)
+![404 HTML Validator Results](./assets/images/testing-images/w3c-validation-results-404-html.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
