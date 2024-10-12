@@ -230,13 +230,29 @@ Testing was focused to ensure the following criteria were met:
 * Contact Section
 ![Home](./assets/images/testing-images/wave-testing-contact-section.png)
 
+
 ### Lighthouse Testing
 
-![Home](docs/testing/index_lighthouse.JPG)
+#### Tetsing results images:
+* Home section testing results:
+![Home](./assets/images/testing-images/lighthouse-testing-home%20section-success.png)
 
-![Gallery](docs/testing/gallery_lighthouse.JPG)
+* Home section testing results -iphone 14 pro Max:
+![Home](./assets/images/testing-images/lighthouse-testing-home-section-portrait-iphone%2014%20pro-max.png)
 
-![Adventures](docs/testing/adventures_lighthouse.JPG)
+* About section testing results:
+![About](./assets/images/testing-images/lighthouse-testing-About-section.png)
+
+* Customers section testing results:
+![Customers](./assets/images/testing-images/lighthouse-testing-customers-section.png)
+
+* Certificates section testing results:
+![Certificates](./assets/images/testing-images/lighthouse-testing-certificate-section.png)
+
+* Contact section testing results:
+![Contact](./assets/images/testing-images/lighthouse-testing-contact%20section.png)
+
+
 
 ### Functional Testing
 
@@ -244,11 +260,18 @@ Testing was focused to ensure the following criteria were met:
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
-| Navigation Link | Page to Load    |
-| --------------- | --------------- |
-| Home            | index.html      |
-| Aventures       | adventures.html |
-| Gallery         | gallery.html    |
+| Navigation Link                | Page to Load                                                 |
+| ---------------                | ---------------                                              |
+| Home                           | index.html                                                   |
+| About                          | index.html#about                                             |
+| Customers                      | index.html#customers                                         |
+|Certificates                    | index.html#certificates                                      |
+| Contact                        | index.html#contact                                           |
+| Connect button link            | https://www.linkedin.com/in/vital-nsengiyumva/ in a new tab  |
+| Download my Resume button link | https://vinsengi.github.io/My-Resume/ in a new tab           |
+| Send button link               | success.html                                                 |
+|                                |                                                              |
+
 
 Links on all pages navigated to the correct pages as exptected.
 
@@ -260,18 +283,19 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
-   - First Name: John
-   - Last Name: Doe
-   - Email: doe.john@test.com
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
+2. or Scroll down to the form and input the following data:
+   - First Name: Kaka
+   - Last Name: Messi
+   - Phone: o123456789
+   - Email: kaka-messi@test.com
    - Comment: This is a test.
 3. Click Submit
-4. User should be redirected to contact.html confirmation page
+4. User should be redirected to success.html confirmation with Thank you ! message page page
 
 Expected:
 
-Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+Form submits with no warnings or errors and user is redirected to success.html confirmation with Thank you ! message page.
 
 Actual:
 
