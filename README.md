@@ -285,9 +285,8 @@ Steps to test:
 
 1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
 2. or Scroll down to the form and input the following data:
-   - First Name: Kaka
-   - Last Name: Messi
-   - Phone: o123456789
+   - Full Name: Kaka Messi
+   - Phone: 0123456789
    - Email: kaka-messi@test.com
    - Comment: This is a test.
 3. Click Submit
@@ -299,43 +298,43 @@ Form submits with no warnings or errors and user is redirected to success.html c
 
 Actual:
 
-Website behaved as expected with no errors or warnings and redirected to contact.html.
+Website behaved as expected with no errors or warnings and redirected to success.html.
 
-_Scenario Two - Missing Required Field First Name_
+_Scenario Two - Missing Required Field Full Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
-   - First Name:
-   - Last Name: Doe
-   - Email: doe.john@test.com
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
+2. or Scroll down to the form and input the following data:
+   - Full Name:
+   - Phone: 0123456789
+   - Email: kaka-messi@test.com
    - Comment: This is a test.
 3. Click Submit
 
 Expected:
 
-The form does not submit and an Error is displayed to tell the user that the field is required.
+The form does not submit and an Error is displayed to tell the user that the field "Full Name" is required.
 
 Actual:
 
 Website behaved as expected, error message was displayed and the form did not submit.
 
-_Scenario Three - Missing Required Field Last Name_
+_Scenario Three - Missing Required Field Phone_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
 2. Scroll down to the form and input the following data:
-   - First Name:John
-   - Last Name:
-   - Email: doe.john@test.com
+   - Full Name:John
+   - Phone: 
+   - Email: kaka-messi@test.com
    - Comment: This is a test.
 3. Click Submit
 
 Expected:
 
-The form does not submit and an Error is displayed to tell the user that the field is required.
+The form does not submit and an Error is displayed to tell the user that the field "Phone" is required.
 
 Actual:
 
@@ -345,17 +344,37 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
 2. Scroll down to the form and input the following data:
-   - First Name:John
-   - Last Name: Doe
+   - Full Name:kaka
+   - Phone: o123456789
    - Email:
    - Comment: This is a test.
 3. Click Submit
 
 Expected:
 
-The form does not submit and an Error is displayed to tell the user that the field is required.
+The form does not submit and an Error is displayed to tell the user that the field "Email" is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Five - Missing Message_
+
+Steps to test:
+
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
+2. or Scroll down to the form and input the following data:
+   - Full Name: Kaka messi
+   - Phone: 0123456789
+   - Email: kaka-messi@test.com
+   - Comment: 
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the fiel "message" is required.
 
 Actual:
 
@@ -365,11 +384,11 @@ _Scenario Six - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
 2. Scroll down to the form and input the following data:
-   - First Name:John
-   - Last Name: Doe
-   - Email: doe.johntest.com
+   - Full Name: Kaka messi
+   - Phone: 0123456789
+   - Email: kaka-messi.com
    - Comment: This is a test.
 3. Click Submit
 
@@ -393,7 +412,7 @@ Testing was performed on the phone number in the contact information section of 
 
 _Steps to test Telephone Number_
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
 2. Click the phone number in the footer (01 123 456 789)
 
 Expected:
@@ -408,7 +427,7 @@ Behavior was as expected and the window presented me with the following option t
 
 _Steps to test Email Link_
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [Home/Contact section](https://vinsengi.github.io/PP1-HTML-CSS-Vital/index.html#contact)
 2. Click the email address in the footer (taco@gmail.com)
 
 Expected:
@@ -481,21 +500,26 @@ The project will now of been cloned on your local machine for use.
 
 ## Credits 
 
-* [Accordion without javascript](https://supfort.com/pure-css-accordion-without-javascript)
+
+for Inspirations:
+
+* [Love Running project](https://vinsengi.github.io/Love-Running-Project/)
+* [Dr. Angela YU](https://www.appbrewery.com/)
+* [boardwalk-games project](https://vinsengi.github.io/boardwalk-games/)
     * Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-* [Youtube Gallery Filter Tutorial](https://www.youtube.com/watch?v=U-CujW5OlW0)
-    * Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device. 
+* [MCGirr](https://github.com/Gareth-McGirr/tacos-travels)
+* [My Mentor] (https://app.slack.com/client/T0L30B202/D07NNPG8F6G)
 
 
 ### Content 
 
-All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+All content with the exception of those listed in the Media section of this document was owned by Vital.
 
 ### Media
 
-Website Logo was created by my wife [Daisy McGirr](https://github.com/Daisy-McG) using Canva.
+Read me structure borrowed from  [McGirr](https://github.com/Gareth-McGirr/tacos-travels).
 
-Maps on the adventure page were from google maps timeline.
+
 
 
 
