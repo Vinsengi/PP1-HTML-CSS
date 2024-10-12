@@ -56,7 +56,23 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
     * This information lets the user know what the site is about. 
 
 ![Bio](./assets/images/readme-images/about-me-section.png)
+* This section will provide principal values that Vital believes in especially when it comes to project management profession.
 
+
+### Customers section
+* Customers
+    * This section serves as testimonials of other world playrs that Vital has worked with as in to give confidency to the potential customer/business partner.
+
+![Customers](./assets/images/readme-images/customers.png)
+
+
+### Certificates
+* to fullfill all the requirements...
+    * This sections containing 3 sample photos from certificates. They aim to give the user another high level overview of proof for my continious learning and growth mindset, learn it all! 
+    
+![Certificates](./assets/images/readme-images/certificates.png)
+
+### Contact
 * Contact form
     * A contact form will be implemented to allow users to contact Vital. The form will consist of the following fields and attributes: 
         *Full Name (required, type=text)
@@ -69,24 +85,13 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
 
 ![Contact Form](./assets/images/readme-images/contactme-form.png)
 
-![Contact Form Received](docs/readme_images/contact_form_received.JPG)
-### Gallery Page
-* Gallery
-    * The gallery will provide the user with photos of 'Taco's Motorcycle adventures from various trips and charity events. The gallery will be fully     responsive on all devices and allows the user to filter by categories provided in a sub navigation.
-    * This will allow users that are interested in 'Taco's Travels to filter items based on the category they wish to be displayed. As the gallery is responsive it will allow the user to view content from any device. 
+![Contact Form](./assets/images/readme-images/contactme-form-filled.png)
 
-![Gallery](docs/readme_images/gallery.JPG)
-### Adventures
-* Adventure Summary
-    * Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos. 
-    * The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
-
-![Adventure Summary](docs/readme_images/adventures_summary.JPG)
-* More details dropdown
-    * Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way. 
-    * These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about. 
+![Contact Form Received](./assets/images/readme-images/success-message.png)
 
 ![Details Dropdown](docs/readme_images/details_dropdown.JPG)
+
+
 ### Existing Features
 
 * Responsive design
@@ -97,9 +102,9 @@ Visit the live site: [The PP1-HTML-CSS-Vital](https://vinsengi.github.io/PP1-HTM
 
 ### Features Left to Implement
 
-* As a future enhancement, the contact form will be updated with javascript to send an email to Taco with the contact information.
+* As a future enhancement, the contact form will be updated with javascript to send an email to vital with the contact information.
 
-* Google map interaction to be added to the Adventures page instead of screen shots of the map.
+* Fix the carousel so that its height remains same regardless of image's height.
 
 ## Design
 
